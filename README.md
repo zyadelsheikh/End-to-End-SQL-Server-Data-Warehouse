@@ -1,61 +1,72 @@
 # SQL Data Warehouse from Scratch | End-to-End Data Engineering Project
 
-Welcome to the **SQL Data Warehouse Project** repository.
+Welcome to the SQL Data Warehouse project.
 
-This project demonstrates how to build a simple data warehouse using SQL Server, starting from raw data and ending with analytical insights.  
-The project is designed as a hands-on data engineering portfolio project that covers the core concepts of data warehousing and analytics.
+In this project, I built a simple data warehouse using SQL Server.
+The goal was to practice the main steps of building a data warehouse starting from raw data and preparing it for analysis.
 
----
-
-## Project Requirements
-
-## Building the Data Warehouse (Data Engineering)
-
-### Objective
-
-Build a structured data warehouse using SQL Server to integrate sales data from multiple systems and prepare it for analysis and reporting.
-
-### Specifications
-
-- **Data Sources**: Load data from two different systems (ERP and CRM) provided in CSV format.
-
-- **Data Quality**: Clean and prepare the data by handling missing values and fixing formatting issues before analysis.
-
-- **Integration**: Merge both datasets into a single structured data model suitable for analytical queries.
-
-- **Scope**: Work with the latest dataset only; historical data tracking is not included.
-
-- **Documentation**: Provide clear documentation explaining the structure of the data warehouse and table relationships.
+The project focuses on basic data engineering tasks like loading data, cleaning it, organizing it into structured tables, and running analytical queries.
 
 ---
 
-## BI: Analytics & Reporting (Data Analytics)
+# 📌 Project Requirements
 
-### Objective
+## 🏗 Building the Data Warehouse (Data Engineering)
 
-Use SQL queries to analyze the data and generate useful business insights.
+### 🎯 Objective
 
-### Analytics Focus
+Create a SQL Server data warehouse that combines sales data from different systems and prepares it for reporting and analysis.
 
-Develop SQL-based analysis to provide insights into:
+### ⚙️ Specifications
 
-- **Customer Behavior**
-- **Product Performance**
-- **Sales Trends**
+**📂 Data Sources**
 
-These insights help businesses understand performance and support better decision-making.
+Data comes from two different systems (ERP and CRM) and is provided as CSV files.
+
+**🧹 Data Quality**
+
+The data is cleaned by handling missing values and fixing formatting issues.
+
+**🔗 Integration**
+
+Data from both systems is combined into a single structured data model.
+
+**📊 Scope**
+
+The project focuses on the latest available dataset and does not include historical tracking.
+
+**📝 Documentation**
+
+Basic documentation is included to explain the tables and relationships inside the data warehouse.
 
 ---
 
-## License
+# 📈 BI: Analytics & Reporting (Data Analysis)
 
-This project is licensed under the **MIT License**.  
-You are free to use, modify, and share this project with proper attribution.
+## 🎯 Objective
+
+Use SQL queries to analyze the data stored in the warehouse and extract useful insights.
+
+## 🔍 Analytics Focus
+
+The analysis mainly focuses on:
+
+* 👥 Customer behavior
+* 📦 Product performance
+* 📈 Sales trends
+
+These insights help understand how the business is performing based on the available data.
 
 ---
 
-## About Me
+# 📄 License
 
-Hi! I'm **Zyad Elsheikh**, passionate about Data Engineering and Analytics.
+This project is licensed under the MIT License.
 
-This project is part of my journey to build real-world data engineering projects and strengthen my skills in SQL, data modeling, and data warehousing.
+---
+
+# 👨‍💻 About Me
+
+Hi, I'm **Zyad Elsheikh**.
+
+I'm currently learning data engineering and working on projects to improve my skills in SQL, data modeling, and data warehousing.
